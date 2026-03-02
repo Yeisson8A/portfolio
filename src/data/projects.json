@@ -1,0 +1,68 @@
+[
+    {
+      "title": "ETL Python and SQL Server",
+      "description": "Ejercicio de una ETL utilizando Python, para extraer datos de una API y posteriormente cargar estos datos a una tabla en SQL Server.",
+      "technologies": ["Python", "SQL Server", "Rest API", "Jupyter Notebooks"],
+      "github": "https://github.com/Yeisson8A/ETLSQLServerPython"
+    },
+    {
+      "title": "Text to Speech",
+      "description": "Proyecto desarrollado en Python, utilizando las librerías gTTS y la API de Gemini, para generar texto y convertir este a audio.",
+      "technologies": ["Python", "Text to Speech", "Rest API", "Gemini AI", "Jupyter Notebooks"],
+      "github": "https://github.com/Yeisson8A/TextToSpeechPython"
+    },
+    {
+      "title": "Speech to Text YouTube Video",
+      "description": "Ejemplo desarrollado en Python utilizando las librerias moviepy, pytubefix y whisper para descargar audio de un video de youtube y transcribirlo.",
+      "technologies": ["Python", "Speech to Text", "Whisper AI", "Jupyter Notebooks"],
+      "github": "https://github.com/Yeisson8A/Speech_To_Text_From_Youtube_Python"
+    },
+    {
+      "title": "Process Images with YOLO",
+      "description": "Proyecto desarrollado en Python de segmentación, clasificación y detección de objetos, así como predicción de pose en imágenes, usando el modelo YOLO11 y la librería ultralytics.",
+      "technologies": ["Python", "YOLOv11", "Image Segmentation", "Image Classification", "Object Detection", "Jupyter Notebooks"],
+      "github": "https://github.com/Yeisson8A/Process_Image_Yolo_Python"
+    },
+    {
+      "title": "Recommendation System",
+      "description": "Proyecto desarrollado en Python usando las librerías Scikit learn, Pandas y los datos de películas obtenidos desde MovieLens 100k, para un sistema de recomendaciones.",
+      "technologies": ["Python", "Scikit learn", "Pandas", "Jupyter Notebooks"],
+      "github": "https://github.com/Yeisson8A/Recommendation_System_Python"
+    },
+    {
+      "title": "Generación de RAG con Firebase, Qdrant y Gemini AI",
+      "description": "Proyecto en Python para la implementación de un RAG, usando Firebase como base de datos origen y Qdrant como base de datos vectorial, así como embeddings y búsqueda semántica. Posteriormente Gemini AI con dichos embeddings como contexto para el prompt.",
+      "technologies": ["Python", "Firebase", "Vector Database", "Qdrant", "Gemini AI", "Jupyter Notebooks"],
+      "github": "https://github.com/Yeisson8A/Embeddings_Firebase_Qdrant_Python"
+    },
+    {
+      "title": "Art App",
+      "description": "Aplicación de arte, desarrollada en React usando Material UI, Text to Speech y Speech to Text, así como las APIs de Art Institute of Chicago y Gemini AI.",
+      "technologies": ["React", "JavaScript", "Rest API", "Material UI", "Text to Speech", "Gemini AI", "Speech Recognition"],
+      "github": "https://github.com/Yeisson8A/art-app-react"
+    },
+    {
+      "title": "ETL NodeJS and MongoDB",
+      "description": "Proyecto de una ETL desarrollada en NodeJS que usa como origen una base de datos MongoDB con los datos en múltiples colecciones, y los transforma agrupando los datos para insertarlos en una única colección.",
+      "technologies": ["NodeJS", "JavaScript", "MongoDB"],
+      "github": "https://github.com/Yeisson8A/etl-mongo"
+    },
+    {
+      "title": "Fraud Detection",
+      "description": "Proyecto desarrollado en NodeJS, Kafka y Redis para procesar y analizar transacciones financieras en tiempo real utilizando el dataset de Kaggle (Credit Card Fraud Detection).",
+      "technologies": ["NodeJS", "JavaScript", "Express", "MongoDB", "Redis", "Kafka", "Docker", "Rest API"],
+      "github": "https://github.com/Yeisson8A/fraud-detection-api"
+    },
+    {
+      "title": "Video Game App",
+      "description": "Aplicación en Angular 18, usando Angular Material, la API de videojuegos RAWG, la funcionalidad para convertir texto a audio mediante SpeechSynthesisUtterance, y las librerías Ngx Gauge, Ng Gallery.",
+      "technologies": ["Angular", "TypeScript", "Rest API", "Angular Material", "Text to Speech", "Ngx"],
+      "github": "https://github.com/Yeisson8A/video-game-db"
+    },
+    {
+      "title": "Nasa App",
+      "description": "Aplicación en Angular 18, usando Angular Material, la API de la NASA, Subjects y la librería Ngx Json Viewer.",
+      "technologies": ["Angular", "TypeScript", "Rest API", "Angular Material", "Ngx"],
+      "github": "https://github.com/Yeisson8A/nasaApi"
+    }
+  ]

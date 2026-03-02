@@ -1,0 +1,38 @@
+[
+  {
+    "role": "Data Scientist",
+    "company": "IkiTech Solutions",
+    "period": "February 2025 - February 2026",
+    "technologies": ["Python", "Pandas", "Plotly", "Streamlit", "Boto3", "Jupyter Notebooks", "MongoDB", "PostgreSQL", "SQL Server", "Rest API"]
+  },
+  {
+    "role": "Analista de Desarrollo",
+    "company": "Xpert Group",
+    "period": "April 2022 - February 2024",
+    "technologies": ["C#", ".NET Framework", "Angular", "JavaScript", "TypeScript", "SQL Server", "Rest API"]
+  },
+  {
+    "role": "Analista de Desarrollo",
+    "company": "Xpert Group",
+    "period": "February 2022 - March 2022",
+    "technologies": ["C#", ".NET Framework", "Angular", "JavaScript", "TypeScript", "SQL Server", "Rest API"]
+  },
+  {
+    "role": "Desarrollador SAP",
+    "company": "Sofka Technologies",
+    "period": "May 2019 - January 2022",
+    "technologies": ["SAP ERP", "ABAP"]
+  },
+  {
+    "role": "Consultor Junior Desarrollo",
+    "company": "SETI",
+    "period": "August 2018 - April 2019",
+    "technologies": ["C#", ".NET Framework", "SQL Server", "Rest API"]
+  },
+  {
+    "role": "Analista de Transformación",
+    "company": "Movinova",
+    "period": "November 2015 - May 2018",
+    "technologies": ["C#", ".NET Framework", "ASP.NET MVC", "JavaScript", "JQuery", "SQL Server", "Rest API", "Azure"]
+  }
+]
