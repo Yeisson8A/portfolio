@@ -10,14 +10,14 @@ import {
 
 import SchoolOutlinedIcon from "@mui/icons-material/SchoolOutlined";
 import WorkOutlineIcon from '@mui/icons-material/WorkOutline';
-
+import aboutImg from "../assets/about.jpg";
 import { motion } from "framer-motion";
 
 const MotionBox = motion(Box);
 
 export default function About() {
   return (
-    <Box component="section" sx={{ py: 12, backgroundColor: "#f8fbff" }}>
+    <Box component="section" id="about" sx={{ py: 12, backgroundColor: "#f8fbff" }}>
       <Container maxWidth="lg">
 
         {/* Título */}
@@ -43,7 +43,7 @@ export default function About() {
           {/* Imagen */}
           <Grid size={{ xs: 12, md: 4 }}>
             <Avatar
-              src="/profile.jpg"
+              src={aboutImg}
               sx={{
                 width: "100%",
                 height: 350,

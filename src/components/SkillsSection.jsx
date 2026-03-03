@@ -1,13 +1,13 @@
 import { Box, Typography, Grid, Container } from "@mui/material";
 import { motion } from "framer-motion";
-import ExperienceCard from "./ExperienceCard";
-import experienceData from "../data/experience.json";
+import SkillCategoryCard from "./SkillCategoryCard";
+import skillsData from "../data/skills.json";
 
 const MotionBox = motion(Box);
 
-export default function Experience() {
+export default function SkillsSection() {
   return (
-    <Box component="section" id="experience" sx={{ py: 12 }}>
+    <Box component="section" id="skills" sx={{ py: 12, backgroundColor: "#f8fbff" }}>
       <Container maxWidth="lg">
         <MotionBox
           textAlign="center"
@@ -22,14 +22,14 @@ export default function Experience() {
           </Typography>
 
           <Typography variant="h3" fontWeight={700}>
-            Experience
+            Skills
           </Typography>
         </MotionBox>
 
         <Grid container spacing={4}>
-          {experienceData.map((job, index) => (
-            <Grid size={{ xs: 12, md: 6 }} key={index}>
-              <ExperienceCard {...job} />
+          {skillsData.map((category, index) => (
+            <Grid size={{ xs: 12, md: 12 }} key={index}>
+              <SkillCategoryCard {...category} />
             </Grid>
           ))}
         </Grid>

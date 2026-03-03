@@ -10,6 +10,7 @@ export default function Hero() {
   return (
     <MotionBox
       component="section"
+      id="main"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8 }}
@@ -61,11 +62,25 @@ export default function Hero() {
           justifyContent="center"
           alignItems="center"
         >
-          <Button variant="outlined" size="large">
+          <Button
+            variant="outlined"
+            size="large"
+            href="https://drive.google.com/drive/folders/1aSJ9iM8EC9zlndKHfb7NavSJrFozUaIn?usp=sharing"
+            target="_blank"
+          >
             Download CV
           </Button>
 
-          <Button variant="contained" size="large">
+          <Button
+            variant="contained"
+            size="large"
+            onClick={() => {
+              const section = document.getElementById("contact");
+              if (section) {
+                section.scrollIntoView({ behavior: "smooth" });
+              }
+            }}
+          >
             Contact
           </Button>
         </Stack>

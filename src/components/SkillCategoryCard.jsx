@@ -3,15 +3,10 @@ import { motion } from "framer-motion";
 
 const MotionCard = motion(Card);
 
-export default function ExperienceCard({
-  role,
-  company,
-  period,
-  technologies = []
-}) {
+export default function SkillCategoryCard({ title, skills = [] }) {
   return (
     <MotionCard
-      whileHover={{ y: -8 }}
+      whileHover={{ y: -6 }}
       transition={{ duration: 0.3 }}
       sx={{
         borderRadius: "20px",
@@ -24,48 +19,29 @@ export default function ExperienceCard({
     >
       <CardContent
         sx={{
-          flexGrow: 1,
           display: "flex",
           flexDirection: "column",
-          textAlign: "left",
         }}
       >
-        {/* Cargo */}
-        <Typography variant="h6" fontWeight={600}>
-          {role}
-        </Typography>
-
-        {/* Empresa */}
         <Typography
-          variant="subtitle1"
-          color="primary"
-          fontWeight={500}
-          sx={{ mt: 0.5 }}
-        >
-          {company}
-        </Typography>
-
-        {/* Periodo */}
-        <Typography
-          variant="body2"
-          color="text.secondary"
+          variant="h6"
+          fontWeight={600}
           sx={{ mb: 2 }}
         >
-          {period}
+          {title}
         </Typography>
 
-        {/* Tecnologías */}
         <Stack
           direction="row"
           spacing={1}
           flexWrap="wrap"
-          justifyContent="flex-start"
-          sx={{ gap: 1, mt: "auto" }}
+          justifyContent="center"
+          sx={{ gap: 1 }}
         >
-          {technologies.map((tech, index) => (
+          {skills.map((skill, index) => (
             <Chip
               key={index}
-              label={tech}
+              label={skill}
               size="medium"
               color="primary"
               variant="contained"

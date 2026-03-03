@@ -1,0 +1,55 @@
+[
+  {
+    "title": "Soft Skills",
+    "skills": [
+        "Adaptability",
+        "Problem solving",
+        "Flexibility",
+        "Teamwork",
+        "Proactivity",
+        "Commitment",
+        "Compliance",
+        "Responsibility",
+        "Collaboration"
+    ]
+  },
+  {
+    "title": "Hard Skills",
+    "skills": [
+        "C#",
+        ".NET",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "SQL Server",
+        "PostgreSQL",
+        "MySQL",
+        "Oracle",
+        "MongoDB",
+        "Rest APIs",
+        "Angular",
+        "React",
+        "NodeJS",
+        "Express",
+        "Vitest",
+        "Python",
+        "Jupyter Notebooks",
+        "FastAPI",
+        "Streamlit",
+        "OpenCV",
+        "SQL Alchemy",
+        "Pytest",
+        "Dart",
+        "Flutter",
+        "Golang",
+        "Automation",
+        "Make (Integromat)",
+        "N8N"
+    ]
+  },
+  {
+    "title": "Infrastructure",
+    "skills": ["Docker", "Kafka", "Azure", "AWS", "Databricks"]
+  }
+]

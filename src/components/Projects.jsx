@@ -7,7 +7,7 @@ const MotionBox = motion(Box);
 
 export default function Projects() {
   return (
-    <Box component="section" sx={{ py: 12, backgroundColor: "#f8fbff" }}>
+    <Box component="section" id="projects" sx={{ py: 12, backgroundColor: "#f8fbff" }}>
       <Container maxWidth="lg">
         <MotionBox
           textAlign="center"

@@ -38,7 +38,8 @@ export default function ProjectCard({
         sx={{
           flexGrow: 1,
           display: "flex",
-          flexDirection: "column"
+          flexDirection: "column",
+          textAlign: "left",
         }}
       >
         <Typography variant="h6" fontWeight={600} gutterBottom>
@@ -58,15 +59,16 @@ export default function ProjectCard({
           direction="row"
           spacing={1}
           flexWrap="wrap"
-          sx={{ gap: 1, maxWidth: "100%", mb: 2, justifyContent: "flex-start" }}
+          justifyContent="flex-start"
+          sx={{ gap: 1, maxWidth: "100%", mb: 2 }}
         >
           {technologies.map((tech, index) => (
             <Chip
               key={index}
               label={tech}
-              size="small"
+              size="medium"
               color="primary"
-              variant="outlined"
+              variant="contained"
             />
           ))}
         </Stack>
