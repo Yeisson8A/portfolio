@@ -120,5 +120,11 @@
       "technologies": ["Automation", "Make", "Gemini AI", "Rest API", "Botpress"],
       "github": "https://github.com/Yeisson8A/ChatBot_DatosCiudades",
       "demo": "https://youtu.be/diGJ11uF19g"
+    },
+    {
+      "title": "Playwright Automation",
+      "description": "Automation project developed in Python using a web scraper and the Playwright library to browse websites, obtain information, and download files.",
+      "technologies": ["Python", "Pandas", "Playwright", "Asyncio", "Automation"],
+      "github": "https://github.com/Yeisson8A/playwright-automation-python"
     }
   ]
