@@ -138,5 +138,11 @@
       "description": "Project developed in Python interacting with DataFrames (from a list, a CSV, a JSON, and a Parquet file) in Spark using both PySpark and Spark SQL.",
       "technologies": ["Python", "Spark", "Jupyter Notebooks"],
       "github": "https://github.com/Yeisson8A/DataFramesPySpark"
+    },
+    {
+      "title": "Playwright Automation + Computer Vision",
+      "description": "Automation project in Python, using Playwright to download images from a website, detect objects using YOLOv11, and extract text using OCR.",
+      "technologies": ["Python", "Playwright", "Asyncio", "Automation", "OpenCV", "OCR", "YOLOv11", "Object Detection", "Keras"],
+      "github": "https://github.com/Yeisson8A/playwright-object-detection"
     }
   ]
