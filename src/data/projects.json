@@ -110,13 +110,13 @@
     },
     {
       "title": "Automation with Make, Google Forms, Trello",
-      "description": "Flujo de automatización desarrollado con Make, enfocado en optimizar la gestión de solicitudes; integrando Google Forms, Gmail, Google Sheets y Trello.",
+      "description": "Automation workflow developed with Make, focused on optimizing request management; integrating Google Forms, Gmail, Google Sheets, and Trello.",
       "technologies": ["Automation", "Make", "Google Forms", "Trello", "Gmail"],
       "github": "https://github.com/Yeisson8A/make_automatizacion_google_forms_trello"
     },
     {
       "title": "Chatbot Cities Data",
-      "description": "Proyecto de desarrollo de un chatbot en Botpress, conectado a una automatización de procesos en Make, diseñado para descubrir una ciudad conversando, permitiendo obtener datos como: La población, comida típica, el clima, sitios turísticos.",
+      "description": "Project to develop a chatbot in Botpress, connected to a process automation in Make, designed to discover a city through conversation, allowing data to be obtained such as: population, typical food, climate, tourist sites.",
       "technologies": ["Automation", "Make", "Gemini AI", "Rest API", "Botpress"],
       "github": "https://github.com/Yeisson8A/ChatBot_DatosCiudades",
       "demo": "https://youtu.be/diGJ11uF19g"
@@ -126,5 +126,17 @@
       "description": "Automation project developed in Python using a web scraper and the Playwright library to browse websites, obtain information, and download files.",
       "technologies": ["Python", "Pandas", "Playwright", "Asyncio", "Automation"],
       "github": "https://github.com/Yeisson8A/playwright-automation-python"
+    },
+    {
+      "title": "Airflow and MongoDB",
+      "description": "Python project using Docker Airflow and MongoDB, a DAG to generate data in a collection, transform it, and insert its modified version into a new collection.",
+      "technologies": ["Python", "Pandas", "Airflow", "MongoDB", "Docker"],
+      "github": "https://github.com/Yeisson8A/airflow-mongo"
+    },
+    {
+      "title": "Spark and Python",
+      "description": "Project developed in Python interacting with DataFrames (from a list, a CSV, a JSON, and a Parquet file) in Spark using both PySpark and Spark SQL.",
+      "technologies": ["Python", "Spark", "Jupyter Notebooks"],
+      "github": "https://github.com/Yeisson8A/DataFramesPySpark"
     }
   ]
