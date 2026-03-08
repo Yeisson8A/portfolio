@@ -144,5 +144,11 @@
       "description": "Automation project in Python, using Playwright to download images from a website, detect objects using YOLOv11, and extract text using OCR.",
       "technologies": ["Python", "Playwright", "Asyncio", "Automation", "OpenCV", "OCR", "YOLOv11", "Object Detection", "Keras"],
       "github": "https://github.com/Yeisson8A/playwright-object-detection"
+    },
+    {
+      "title": "Product API",
+      "description": "API project developed in .NET Core 8, with a Redis database and unit tests in XUnit, including coverage.",
+      "technologies": ["C#", ".NET", "Rest API", "Redis", "Docker"],
+      "github": "https://github.com/Yeisson8A/ProductApp"
     }
   ]
