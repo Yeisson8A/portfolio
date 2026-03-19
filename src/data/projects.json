@@ -150,5 +150,12 @@
       "description": "API project developed in .NET Core 8, with a Redis database and unit tests in XUnit, including coverage.",
       "technologies": ["C#", ".NET", "Rest API", "Redis", "Docker"],
       "github": "https://github.com/Yeisson8A/ProductApp"
+    },
+    {
+      "title": "Eye Health and Fatigue Monitor",
+      "description": "A project developed using Python and computer vision to prevent digital eye strain. It uses real-time facial biometrics to monitor blink rate (BPM) and send alerts to the user.",
+      "technologies": ["Python", "OpenCV", "Dlib", "Face Recognition"],
+      "github": "https://github.com/Yeisson8A/monitor-fatiga-python",
+      "demo": "https://youtu.be/ZDSQPtVx90o"
     }
   ]
