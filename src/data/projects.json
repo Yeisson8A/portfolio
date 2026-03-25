@@ -157,5 +157,18 @@
       "technologies": ["Python", "OpenCV", "Dlib", "Face Recognition"],
       "github": "https://github.com/Yeisson8A/monitor-fatiga-python",
       "demo": "https://youtu.be/ZDSQPtVx90o"
+    },
+    {
+      "title": "Collection Accounts App - Backend",
+      "description": "Project to develop an API using Python, SQLAlchemy, and FastAPI for calculating KPIs based on accounts receivable data, sourced from an n8n automation workflow, using PostgreSQL as the database.",
+      "technologies": ["Python", "Pandas", "SQL Alchemy", "FastAPI", "Docker", "n8n", "PostgreSQL"],
+      "github": "https://github.com/Yeisson8A/cuentas-cobro-kpis-api"
+    },
+    {
+      "title": "Collection Accounts App - Frontend",
+      "description": "Development of an application using Angular 18, Angular Material, and ECharts that integrates the KPI API for accounts receivable, as well as a webhook for uploading files using n8n.",
+      "technologies": ["Angular", "TypeScript", "Angular Material", "Rest API", "Webhook", "ECharts", "NGINX", "Docker"],
+      "github": "https://github.com/Yeisson8A/cuentas-cobro-app",
+      "demo": "https://youtu.be/OVgYg1GTEtE"
     }
   ]
