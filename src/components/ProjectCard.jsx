@@ -27,7 +27,7 @@ export default function ProjectCard({
       sx={{
         borderRadius: "20px",
         boxShadow: "0 10px 30px rgba(0,0,0,0.06)",
-        height: "300px",
+        height: "350px",
         width: "100%",
         flex: 1,
         display: "flex",
