@@ -170,5 +170,11 @@
       "technologies": ["Angular", "TypeScript", "Angular Material", "Rest API", "Webhook", "ECharts", "NGINX", "Docker"],
       "github": "https://github.com/Yeisson8A/cuentas-cobro-app",
       "demo": "https://youtu.be/OVgYg1GTEtE"
+    },
+    {
+      "title": "Catalog API NestJS",
+      "description": "Project to build a product catalog REST API using NestJS, TypeORM, and a PostgreSQL database.",
+      "technologies": ["NestJS", "TypeScript", "TypeORM", "PostgreSQL"],
+      "github": "https://github.com/Yeisson8A/nestjs-catalogo-api"
     }
   ]
