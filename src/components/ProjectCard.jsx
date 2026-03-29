@@ -4,12 +4,12 @@ import {
   Typography,
   Button,
   Stack,
-  Chip
+  Chip,
 } from "@mui/material";
 
 import { motion } from "framer-motion";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import SlideshowIcon from '@mui/icons-material/Slideshow';
+import SlideshowIcon from "@mui/icons-material/Slideshow";
 
 const MotionCard = motion(Card);
 
@@ -18,7 +18,7 @@ export default function ProjectCard({
   description,
   technologies = [],
   github,
-  demo
+  demo,
 }) {
   return (
     <MotionCard
@@ -31,7 +31,7 @@ export default function ProjectCard({
         width: "100%",
         flex: 1,
         display: "flex",
-        flexDirection: "column"
+        flexDirection: "column",
       }}
     >
       <CardContent
@@ -42,7 +42,12 @@ export default function ProjectCard({
           textAlign: "left",
         }}
       >
-        <Typography variant="h6" fontWeight={600} gutterBottom>
+        <Typography
+          variant="h6"
+          fontWeight={600}
+          gutterBottom
+          sx={{ wordBreak: "break-word", overflowWrap: "break-word" }}
+        >
           {title}
         </Typography>
 

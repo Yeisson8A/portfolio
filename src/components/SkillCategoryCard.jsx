@@ -26,7 +26,7 @@ export default function SkillCategoryCard({ title, skills = [] }) {
         <Typography
           variant="h6"
           fontWeight={600}
-          sx={{ mb: 2 }}
+          sx={{ mb: 2, wordBreak: "break-word", overflowWrap: "break-word" }}
         >
           {title}
         </Typography>

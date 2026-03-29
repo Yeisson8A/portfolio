@@ -17,11 +17,19 @@ export default function Experience() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <Typography variant="overline" color="primary">
+          <Typography
+            variant="overline"
+            color="primary"
+            sx={{ wordBreak: "break-word", overflowWrap: "break-word" }}
+          >
             Explore my
           </Typography>
 
-          <Typography variant="h3" fontWeight={700}>
+          <Typography
+            variant="h3"
+            fontWeight={700}
+            sx={{ wordBreak: "break-word", overflowWrap: "break-word" }}
+          >
             Experience
           </Typography>
         </MotionBox>

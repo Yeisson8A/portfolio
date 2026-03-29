@@ -103,7 +103,11 @@ export default function ContactSection() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <Typography variant="h3" fontWeight={700}>
+          <Typography
+            variant="h3"
+            fontWeight={700}
+            sx={{ wordBreak: "break-word", overflowWrap: "break-word" }}
+          >
             Contact me
           </Typography>
         </MotionBox>
@@ -188,7 +192,11 @@ export default function ContactSection() {
               transition={{ type: "spring", stiffness: 200 }}
               sx={{ fontSize: 80, color: "#4caf50" }}
             />
-            <Typography variant="h6" mt={2}>
+            <Typography
+              variant="h6"
+              mt={2}
+              sx={{ wordBreak: "break-word", overflowWrap: "break-word" }}
+            >
               Message Sent Successfully!
             </Typography>
           </Box>

@@ -7,7 +7,11 @@ const MotionBox = motion(Box);
 
 export default function Projects() {
   return (
-    <Box component="section" id="projects" sx={{ py: 12, backgroundColor: "#f8fbff" }}>
+    <Box
+      component="section"
+      id="projects"
+      sx={{ py: 12, backgroundColor: "#f8fbff" }}
+    >
       <Container maxWidth="lg">
         <MotionBox
           textAlign="center"
@@ -17,7 +21,11 @@ export default function Projects() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <Typography variant="h3" fontWeight={700}>
+          <Typography
+            variant="h3"
+            fontWeight={700}
+            sx={{ wordBreak: "break-word", overflowWrap: "break-word" }}
+          >
             Projects
           </Typography>
         </MotionBox>

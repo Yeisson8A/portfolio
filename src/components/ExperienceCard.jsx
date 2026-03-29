@@ -7,7 +7,7 @@ export default function ExperienceCard({
   role,
   company,
   period,
-  technologies = []
+  technologies = [],
 }) {
   return (
     <MotionCard
@@ -31,7 +31,11 @@ export default function ExperienceCard({
         }}
       >
         {/* Cargo */}
-        <Typography variant="h6" fontWeight={600}>
+        <Typography
+          variant="h6"
+          fontWeight={600}
+          sx={{ wordBreak: "break-word", overflowWrap: "break-word" }}
+        >
           {role}
         </Typography>
 
@@ -40,7 +44,7 @@ export default function ExperienceCard({
           variant="subtitle1"
           color="primary"
           fontWeight={500}
-          sx={{ mt: 0.5 }}
+          sx={{ mt: 0.5, wordBreak: "break-word", overflowWrap: "break-word" }}
         >
           {company}
         </Typography>
@@ -49,7 +53,7 @@ export default function ExperienceCard({
         <Typography
           variant="body2"
           color="text.secondary"
-          sx={{ mb: 2 }}
+          sx={{ mb: 2, wordBreak: "break-word", overflowWrap: "break-word" }}
         >
           {period}
         </Typography>

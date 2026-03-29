@@ -44,15 +44,30 @@ export default function Hero() {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <Typography variant="h6" color="primary" gutterBottom>
+        <Typography
+          variant="h6"
+          color="primary"
+          gutterBottom
+          sx={{ wordBreak: "break-word", overflowWrap: "break-word" }}
+        >
           Hello, I'm
         </Typography>
 
-        <Typography variant="h4" gutterBottom fontWeight="fontWeightBold">
+        <Typography
+          variant="h4"
+          gutterBottom
+          fontWeight="fontWeightBold"
+          sx={{ wordBreak: "break-word", overflowWrap: "break-word" }}
+        >
           Yeisson Alexander Ochoa Villa
         </Typography>
 
-        <Typography variant="h5" color="text.secondary" mb={4}>
+        <Typography
+          variant="h5"
+          color="text.secondary"
+          mb={4}
+          sx={{ wordBreak: "break-word", overflowWrap: "break-word" }}
+        >
           Software Developer | Data Engineer
         </Typography>
 

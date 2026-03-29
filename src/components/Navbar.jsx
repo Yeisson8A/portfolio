@@ -62,7 +62,12 @@ export default function Navbar() {
           <Typography
             variant="h6"
             fontWeight={700}
-            sx={{ cursor: "pointer", color: "text.primary" }}
+            sx={{
+              cursor: "pointer",
+              color: "text.primary",
+              wordBreak: "break-word",
+              overflowWrap: "break-word",
+            }}
             onClick={() => handleScroll("main")}
           >
             Portfolio

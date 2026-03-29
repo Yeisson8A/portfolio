@@ -5,12 +5,17 @@ import Experience from "./components/Experience";
 import SkillsSection from "./components/SkillsSection";
 import ContactSection from "./components/ContactSection";
 import { Box } from "@mui/material";
-import './App.css'
+import "./App.css";
 import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <Box>
+    <Box
+      sx={{
+        backgroundColor: "background.default",
+        minHeight: "100vh",
+      }}
+    >
       <Navbar />
       <Hero />
       <About />
@@ -19,7 +24,7 @@ function App() {
       <SkillsSection />
       <ContactSection />
     </Box>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -30,7 +30,7 @@
         "Rest APIs",
         "Angular",
         "React",
-        "NodeJS",
+        "Node.js",
         "Express",
         "Vitest",
         "Python",
@@ -45,7 +45,9 @@
         "Golang",
         "Automation",
         "Make (Integromat)",
-        "N8N"
+        "n8n",
+        "NestJS",
+        "Karma/Jasmine"
     ]
   },
   {
