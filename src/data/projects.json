@@ -176,5 +176,11 @@
       "description": "Project to build a product catalog REST API using NestJS, TypeORM, and a PostgreSQL database.",
       "technologies": ["NestJS", "TypeScript", "TypeORM", "PostgreSQL"],
       "github": "https://github.com/Yeisson8A/nestjs-catalogo-api"
+    },
+    {
+      "title": "Library API Spring Boot",
+      "description": "A REST API project developed using Spring Boot and JPA for library management. It enables the management of books, users, and loans using a PostgreSQL database.",
+      "technologies": ["Java", "Spring Boot", "Maven", "Lombok", "Spring Data JPA", "Mapstruct", "Jakarta Validation", "PostgreSQL"],
+      "github": "https://github.com/Yeisson8A/libreria-api"
     }
   ]
