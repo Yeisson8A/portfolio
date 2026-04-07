@@ -179,8 +179,8 @@
     },
     {
       "title": "Library API Spring Boot",
-      "description": "A REST API project developed using Spring Boot and JPA for library management. It enables the management of books, users, and loans using a PostgreSQL database.",
-      "technologies": ["Java", "Spring Boot", "Maven", "Lombok", "Spring Data JPA", "Mapstruct", "Jakarta Validation", "PostgreSQL"],
+      "description": "A REST API project developed using Spring Boot and JPA for library management. It enables the management of books, users, and loans using a PostgreSQL database, including unit test in JUnit.",
+      "technologies": ["Java", "Spring Boot", "Maven", "Lombok", "Spring Data JPA", "Mapstruct", "Jakarta Validation", "PostgreSQL", "Docker"],
       "github": "https://github.com/Yeisson8A/libreria-api"
     }
   ]

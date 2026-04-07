@@ -29,6 +29,7 @@
         "MongoDB",
         "Rest APIs",
         "Angular",
+        "Karma/Jasmine",
         "React",
         "Node.js",
         "Express",
@@ -47,7 +48,9 @@
         "Make (Integromat)",
         "n8n",
         "NestJS",
-        "Karma/Jasmine"
+        "TypeORM",
+        "Spring Boot",
+        "JUnit"
     ]
   },
   {
