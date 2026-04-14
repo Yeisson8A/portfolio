@@ -178,9 +178,16 @@
       "github": "https://github.com/Yeisson8A/nestjs-catalogo-api"
     },
     {
-      "title": "Library API Spring Boot",
+      "title": "Library App - Backend",
       "description": "A REST API project developed using Spring Boot and JPA for library management. It enables the management of books, users, and loans using a PostgreSQL database, including unit test in JUnit.",
       "technologies": ["Java", "Spring Boot", "Maven", "Lombok", "Spring Data JPA", "Mapstruct", "Jakarta Validation", "PostgreSQL", "Docker"],
       "github": "https://github.com/Yeisson8A/libreria-api"
+    },
+    {
+      "title": "Library App - Frontend",
+      "description": "Development of a bookstore management application using Angular 18 and Angular Material that integrates the CRUD API for various bookstore operations, including unit test in Karma/Jasmine.",
+      "technologies": ["Angular", "TypeScript", "Angular Material", "Rest API", "NGINX", "Docker"],
+      "github": "https://github.com/Yeisson8A/libreria-app-angular",
+      "demo": "https://youtu.be/p8OWNrcJVwc"
     }
   ]
