@@ -2,10 +2,23 @@ import { Box, Typography, Grid, Container } from "@mui/material";
 import { motion } from "framer-motion";
 import ProjectCard from "./ProjectCard";
 import projects from "../data/projects.json";
+import { Pagination, Stack } from "@mui/material";
+import { useState } from "react";
 
 const MotionBox = motion(Box);
 
 export default function Projects() {
+  const [page, setPage] = useState(1);
+  const projectsPerPage = 4;
+
+  const startIndex = (page - 1) * projectsPerPage;
+  const selectedProjects = projects.slice(
+    startIndex,
+    startIndex + projectsPerPage,
+  );
+
+  const totalPages = Math.ceil(projects.length / projectsPerPage);
+
   return (
     <Box
       component="section"
@@ -31,12 +44,22 @@ export default function Projects() {
         </MotionBox>
 
         <Grid container spacing={4} alignItems="center" sx={{ mb: 6 }}>
-          {projects.map((project, index) => (
+          {selectedProjects.map((project, index) => (
             <Grid size={{ xs: 12, md: 6 }} key={index}>
               <ProjectCard {...project} />
             </Grid>
           ))}
         </Grid>
+        <Stack alignItems="center" mt={6}>
+          <Pagination
+            count={totalPages}
+            page={page}
+            onChange={(e, value) => setPage(value)}
+            color="primary"
+            shape="circular"
+            size="large"
+          />
+        </Stack>
       </Container>
     </Box>
   );

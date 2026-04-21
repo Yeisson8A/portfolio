@@ -189,5 +189,11 @@
       "technologies": ["Angular", "TypeScript", "Angular Material", "Rest API", "NGINX", "Docker"],
       "github": "https://github.com/Yeisson8A/libreria-app-angular",
       "demo": "https://youtu.be/p8OWNrcJVwc"
+    },
+    {
+      "title": "Sentiment MCP Server",
+      "description": "Development of a Model Context Protocol (MCP) server using Python that acts as a bridge between AI agents and specialized NLP models on Hugging Face.",
+      "technologies": ["Python", "Rest API", "Asyncio", "Httpx", "MCP"],
+      "github": "https://github.com/Yeisson8A/sentiment_mcp"
     }
   ]
