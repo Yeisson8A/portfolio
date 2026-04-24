@@ -50,7 +50,9 @@
         "NestJS",
         "TypeORM",
         "Spring Boot",
-        "JUnit"
+        "JUnit",
+        "Vue.js",
+        "GraphQL"
     ]
   },
   {

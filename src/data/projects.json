@@ -195,5 +195,11 @@
       "description": "Development of a Model Context Protocol (MCP) server using Python that acts as a bridge between AI agents and specialized NLP models on Hugging Face.",
       "technologies": ["Python", "Rest API", "Asyncio", "Httpx", "MCP"],
       "github": "https://github.com/Yeisson8A/sentiment_mcp"
+    },
+    {
+      "title": "Movies API",
+      "description": "Backend API project for managing movies, actors, directors, and reviews, built with Spring Boot and GraphQL.",
+      "technologies": ["Java", "Spring Boot", "Maven", "Lombok", "Spring Data JPA", "Mapstruct", "SQL Server", "Docker", "GraphQL"],
+      "github": "https://github.com/Yeisson8A/movies-api"
     }
   ]
