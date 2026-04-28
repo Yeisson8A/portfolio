@@ -198,8 +198,14 @@
     },
     {
       "title": "Movies API",
-      "description": "Backend API project for managing movies, actors, directors, and reviews, built with Spring Boot and GraphQL.",
+      "description": "Backend API project for managing movies, actors, directors, and reviews, built with Spring Boot and GraphQL, using a SQL Server database, including unit test in JUnit.",
       "technologies": ["Java", "Spring Boot", "Maven", "Lombok", "Spring Data JPA", "Mapstruct", "SQL Server", "Docker", "GraphQL"],
       "github": "https://github.com/Yeisson8A/movies-api"
+    },
+    {
+      "title": "Logistics MCP Server",
+      "description": "Python development project to create an MCP that transforms a logistics database into a strategic asset through analytical queries and demand forecasting on PostgreSQL.",
+      "technologies": ["Python", "Asyncio", "MCP", "PostgreSQL", "SQL Alchemy"],
+      "github": "https://github.com/Yeisson8A/logistics_mcp"
     }
   ]
