@@ -207,5 +207,11 @@
       "description": "Python development project to create an MCP that transforms a logistics database into a strategic asset through analytical queries and demand forecasting on PostgreSQL.",
       "technologies": ["Python", "Asyncio", "MCP", "PostgreSQL", "SQL Alchemy"],
       "github": "https://github.com/Yeisson8A/logistics_mcp"
+    },
+    {
+      "title": "Movie App Vue.js",
+      "description": "A film catalog project built using Vue 3 (Composition API), TypeScript, Vuetify, and Pinia. The application integrates the TMDB API and includes unit tests for these features using Vitest.",
+      "technologies": ["Vue.js", "TypeScript", "Vuetify", "Pinia", "Rest API", "NGINX", "Docker"],
+      "github": "https://github.com/Yeisson8A/movie-app-vue"
     }
   ]
