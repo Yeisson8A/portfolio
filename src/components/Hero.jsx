@@ -68,7 +68,7 @@ export default function Hero() {
           mb={4}
           sx={{ wordBreak: "break-word", overflowWrap: "break-word" }}
         >
-          Software Developer | Data Engineer
+          Fullstack Developer Senior
         </Typography>
 
         <Stack
@@ -80,7 +80,7 @@ export default function Hero() {
           <Button
             variant="outlined"
             size="large"
-            href="https://drive.google.com/drive/folders/1aSJ9iM8EC9zlndKHfb7NavSJrFozUaIn?usp=sharing"
+            href="https://drive.google.com/file/d/12bC9T-cYcX1R3J94CUFzm5P8rlvPEuhG/view?usp=sharing"
             target="_blank"
           >
             Download CV

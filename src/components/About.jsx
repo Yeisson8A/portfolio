@@ -98,7 +98,7 @@ export default function About() {
                   color="text.secondary"
                   sx={{ wordBreak: "break-word", overflowWrap: "break-word" }}
                 >
-                  Backend, FullStack Development and Data Engineer
+                  Backend and FullStack Development
                 </Typography>
               </Card>
             </motion.div>
@@ -135,6 +135,13 @@ export default function About() {
                 >
                   Systems Technologist
                 </Typography>
+                <Typography
+                  variant="body2"
+                  color="text.secondary"
+                  sx={{ wordBreak: "break-word", overflowWrap: "break-word" }}
+                >
+                  Intermediate English B1
+                </Typography>
               </Card>
             </motion.div>
           </Grid>
@@ -157,13 +164,13 @@ export default function About() {
                   lineHeight={1.8}
                   sx={{ wordBreak: "break-word", overflowWrap: "break-word" }}
                 >
-                  I am a Software Developer with over 8 years of experience,
-                  with 6 years of backend and fullstack knowledge, as well as 1
-                  year of data engineering experience. I am currently a
-                  backend-oriented software developer, but with knowledge of
-                  frontend, data engineering, and automation. I am currently
-                  learning NestJS, Airflow, and Databricks. I am passionate
-                  about games, movies, literature, and writing.
+                  I am a software developer with over 8 years of experience 
+                  in backend and full-stack development. I currently work as 
+                  a software developer specializing in backend development, 
+                  though I also have experience in frontend development 
+                  and automation. Right now, I am learning NestJS, Django, 
+                  Spring Boot, and Spring Webflux. I am passionate about 
+                  video games, movies, theater, literature, and writing.
                 </Typography>
               </MotionBox>
             </Stack>
