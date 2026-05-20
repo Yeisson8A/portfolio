@@ -215,14 +215,14 @@
       "github": "https://github.com/Yeisson8A/movie-app-vue"
     },
     {
-      "title": "Carga de Facturas (Floci-AZ) - API",
-      "description": "Proyecto de una API desarrollada en Node.js usando un entorno emulado de Azure con Floci-AZ que permite cargar archivos a un emulador de Azure Blob Storage, encolar mensajes en Azure Queue Storage y registrar el estado inicial en SQL Server.",
+      "title": "Upload Invoices (Floci-AZ) - API",
+      "description": "A project for an API developed in Node.js using an emulated Azure environment with Floci-AZ, which allows users to upload files to an emulated Azure Blob Storage, queue messages in Azure Queue Storage, and log the initial state in SQL Server.",
       "technologies": ["Node.js", "Express", "Azure", "Floci-AZ", "SQL Server", "Sequelize"],
       "github": "https://github.com/Yeisson8A/api-upload-nodejs"
     },
     {
-      "title": "Carga de Facturas (Floci-AZ) - Worker",
-      "description": "Servicio en segundo plano desarrollado en .NET 8 para procesar de forma asíncrona colas de mensajería para la descarga, lectura y persistencia masiva de facturas comerciales a partir de archivos CSV almacenados en el storage local usando Floci-AZ.",
+      "title": "Upload Invoices (Floci-AZ) - Worker",
+      "description": "A background service developed in .NET 8 to asynchronously process messaging queues for downloading, reading, and mass persisting commercial invoices from CSV files stored in local storage using Floci-AZ.",
       "technologies": [".NET", "C#", "Entity Framework", "Azure", "Floci-AZ", "SQL Server"],
       "github": "https://github.com/Yeisson8A/FunctionLoadQueue",
       "demo": "https://youtu.be/uVoF1IUh4pc"
