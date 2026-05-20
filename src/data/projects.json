@@ -213,5 +213,18 @@
       "description": "A film catalog project built using Vue 3 (Composition API), TypeScript, Vuetify, and Pinia. The application integrates the TMDB API and includes unit tests for these features using Vitest.",
       "technologies": ["Vue.js", "TypeScript", "Vuetify", "Pinia", "Rest API", "NGINX", "Docker"],
       "github": "https://github.com/Yeisson8A/movie-app-vue"
+    },
+    {
+      "title": "Carga de Facturas (Floci-AZ) - API",
+      "description": "Proyecto de una API desarrollada en Node.js usando un entorno emulado de Azure con Floci-AZ que permite cargar archivos a un emulador de Azure Blob Storage, encolar mensajes en Azure Queue Storage y registrar el estado inicial en SQL Server.",
+      "technologies": ["Node.js", "Express", "Azure", "Floci-AZ", "SQL Server", "Sequelize"],
+      "github": "https://github.com/Yeisson8A/api-upload-nodejs"
+    },
+    {
+      "title": "Carga de Facturas (Floci-AZ) - Worker",
+      "description": "Servicio en segundo plano desarrollado en .NET 8 para procesar de forma asíncrona colas de mensajería para la descarga, lectura y persistencia masiva de facturas comerciales a partir de archivos CSV almacenados en el storage local usando Floci-AZ.",
+      "technologies": [".NET", "C#", "Entity Framework", "Azure", "Floci-AZ", "SQL Server"],
+      "github": "https://github.com/Yeisson8A/FunctionLoadQueue",
+      "demo": "https://youtu.be/uVoF1IUh4pc"
     }
   ]

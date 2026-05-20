@@ -53,7 +53,8 @@
         "JUnit",
         "Vue.js",
         "Vuetify",
-        "GraphQL"
+        "GraphQL",
+        "Sequelize"
     ]
   },
   {
